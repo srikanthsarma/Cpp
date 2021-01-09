@@ -1,0 +1,8 @@
+{
+  "editor.fontFamily": "fira code",
+  "files.associations": {
+    "iosfwd": "cpp",
+    "algorithm": "cpp",
+    "vector": "cpp"
+  }
+}
