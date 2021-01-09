@@ -1,7 +1,5 @@
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <exception>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 /* Define the exception here */
