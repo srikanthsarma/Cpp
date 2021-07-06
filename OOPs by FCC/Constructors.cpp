@@ -35,9 +35,9 @@ public:
   }
   void printDetails()
   {
-    std::cout << "Name : " << getName() << std::endl;
+    std::cout << "\nName : " << getName() << std::endl;
     std::cout << "Company : " << getCompany() << std::endl;
-    std::cout << "Age : " << getAge() << std::endl;
+    std::cout << "Age : " << getAge() << "\n" << std::endl;
   }
 };
 
@@ -56,4 +56,6 @@ int main()
 {
   Employee employee1 = Employee("Srikanth", "DRDO", 25);
   employee1.printDetails();
+  Employee employee2 = Employee("Sri", "Google", 34);
+  employee2.printDetails();
 }
